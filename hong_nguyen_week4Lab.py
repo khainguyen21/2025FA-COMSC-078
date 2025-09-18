@@ -1,5 +1,3 @@
-
-
 def display_em(lower, upper):
     """ This recursive function displays the consecutive integers
     from its lower to its upper bounds """
