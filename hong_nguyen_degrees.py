@@ -31,16 +31,13 @@ def to_decimal(degrees, minutes, seconds):
 
     return decimal
 
-def main():
-    # Get input from the user
-    degrees = input("Enter degrees: ")
-    minutes = input("Enter minutes: ")
-    seconds = input("Enter seconds: ")
-    
-    # Convert string inputs to appropriate numeric types
-    decimal_degrees = to_decimal(degrees, minutes, seconds)
-    
-    # Display the result
-    print(f"That is {decimal_degrees} decimal degrees.")
+# Get input from the user
+degrees = input("Enter degrees: ")
+minutes = input("Enter minutes: ")
+seconds = input("Enter seconds: ")
 
-main()
+# Convert string inputs to appropriate numeric types
+decimal_degrees = to_decimal(degrees, minutes, seconds)
+
+# Display the result
+print(f"That is {decimal_degrees} decimal degrees.")
